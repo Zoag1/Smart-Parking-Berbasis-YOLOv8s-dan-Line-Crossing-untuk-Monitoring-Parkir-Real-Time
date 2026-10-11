@@ -35,6 +35,7 @@ Proyek ini merupakan sistem pemantauan dan penghitungan kendaraan (motor) parkir
 
 ### Kontak
 Untuk pertanyaan atau diskusi lebih lanjut, Anda dapat menghubungi saya melalui: <br>
+
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maresyatwattimena@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maresyawattimena)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/echawttmna_/)
