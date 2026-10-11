@@ -1,23 +1,20 @@
 # Smart Parking System (YOLOv8 & Line Crossing)
-
 Proyek ini merupakan sistem pemantauan dan penghitungan kendaraan (motor) parkir otomatis berbasis YOLOv8 dan metode Line Crossing yang dilengkapi dengan fitur deteksi cahaya rendah.
 
-1. Tujuan Proyek (Goals)
-1.1. Otomatisasi Penghitungan: Memantau dan menghitung jumlah motor yang masuk ke area parkir secara real-time menggunakan kamera atau video.
-1.2. Manajemen Slot Parkir: Menghitung sisa slot parkir secara otomatis berdasarkan kapasitas maksimum yang telah ditentukan.
-1.3. Adaptasi Cahaya: Meningkatkan kualitas visual video pada kondisi pencahayaan rendah (gelap atau malam hari) menggunakan teknik Low Light Enhancement (CLAHE dan Gamma Correction).
+### Tujuan Proyek (Goals)
+  1. Otomatisasi Penghitungan: Memantau dan menghitung jumlah motor yang masuk ke area parkir secara real-time menggunakan kamera atau video.
+  2. Manajemen Slot Parkir: Menghitung sisa slot parkir secara otomatis berdasarkan kapasitas maksimum yang telah ditentukan.
+  3. Adaptasi Cahaya: Meningkatkan kualitas visual video pada kondisi pencahayaan rendah (gelap atau malam hari) menggunakan teknik Low Light Enhancement (CLAHE dan Gamma Correction).
 
-2. Fitur Utama (Insights & Features)
-2.1. Object Tracking: Menggunakan model YOLOv8 yang dikombinasikan dengan ByteTrack dan IoU untuk menghindari double counting dan masalah oklusi.
-2.2. Adaptive Lighting: Sistem secara otomatis mendeteksi tingkat kecerahan frame dan menerapkan CLAHE serta koreksi gamma jika video terdeteksi gelap.
-2.3. Logging & Evaluasi: Menyimpan hasil pemantauan ke dalam format file CSV (log_parkir_uksw.csv dan hasil_evaluasi.csv) untuk keperluan analisis data serta evaluasi akurasi terhadap Ground Truth.
+### Fitur Utama (Insights & Features)
+  1. Object Tracking: Menggunakan model YOLOv8 yang dikombinasikan dengan ByteTrack dan IoU untuk menghindari double counting dan masalah oklusi.
+  2. Adaptive Lighting: Sistem secara otomatis mendeteksi tingkat kecerahan frame dan menerapkan CLAHE serta koreksi gamma jika video terdeteksi gelap.
+  3. Logging & Evaluasi: Menyimpan hasil pemantauan ke dalam format file CSV (log_parkir_uksw.csv dan hasil_evaluasi.csv) untuk keperluan analisis data serta evaluasi akurasi terhadap Ground Truth.
 
-3. Cara Menjalankan Proyek (How to Run)
-
-3.1. Masuk ke Direktori Proyek
-Buka terminal Anda (Anaconda Prompt atau Command Prompt) dan arahkan ke folder tempat penyimpanan proyek ini:
-cd /path/ke/folder-proyek-anda
-*(Contoh di Windows: cd D:\PROJECT\YOLOV8_Project)*
+### Cara Menjalankan Proyek (How to Run)
+  1. Masuk ke Direktori Proyek
+     Buka terminal Anda (Anaconda Prompt atau Command Prompt) dan arahkan ke folder tempat penyimpanan proyek ini: cd/path/ke/folder-proyek-anda
+     *(Contoh di Windows: cd D:\PROJECT\YOLOV8_Project)*
 
 3.2. Instalasi Ketergantungan (Dependencies)
 Instal seluruh pustaka Python yang dibutuhkan dengan menjalankan perintah:
