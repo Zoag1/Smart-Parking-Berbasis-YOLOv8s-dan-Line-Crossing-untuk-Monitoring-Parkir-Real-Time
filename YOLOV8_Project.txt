@@ -1,0 +1,10 @@
+"D:\PROJECT\YOLOV8_Project"
+pip install ultralytics opencv-python numpy
+python YOLOV8.py --input videos/test.mp4 --output output/test_result.avi
+
+
+python YOLOV8.py --input videos/1.mp4 --output output/1_test_result.avi
+
+
+
+
