@@ -41,5 +41,7 @@ Untuk pertanyaan atau diskusi lebih lanjut, Anda dapat menghubungi saya melalui:
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/echawttmna_/)
 
 
-Terima kasih telah membaca! Saya terbuka untuk masukan dan saran terkait proyek ini. <br>
+Terima kasih telah membaca! Saya terbuka untuk masukan dan saran terkait proyek ini. 
+
+
 God bless you!
