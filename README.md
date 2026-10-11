@@ -7,7 +7,7 @@ Proyek ini merupakan sistem pemantauan dan penghitungan kendaraan (motor) parkir
   3. Adaptasi Cahaya: Meningkatkan kualitas visual video pada kondisi pencahayaan rendah (gelap atau malam hari) menggunakan teknik _Low Light Enhancement_ (_CLAHE dan Gamma Correction_).
 
 ### Fitur Utama 
-  1. _Object Tracking_: Menggunakan model YOLOv8 yang dikombinasikan dengan ByteTrack dan IoU untuk menghindari d_ouble counting_ dan masalah oklusi.
+  1. _Object Tracking_: Menggunakan model YOLOv8 yang dikombinasikan dengan ByteTrack dan IoU untuk menghindari _double counting_ dan masalah oklusi.
   2. _Adaptive Lighting_: Sistem secara otomatis mendeteksi tingkat kecerahan _frame_ dan menerapkan CLAHE serta koreksi gamma jika video terdeteksi gelap.
   3. _Logging_ & Evaluasi: Menyimpan hasil pemantauan ke dalam format file CSV (log_parkir_uksw.csv dan hasil_evaluasi.csv) untuk keperluan analisis data serta evaluasi akurasi terhadap _Ground Truth_.
 
