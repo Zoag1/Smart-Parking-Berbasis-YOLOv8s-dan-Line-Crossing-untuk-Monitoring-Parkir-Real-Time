@@ -1,4 +1,4 @@
-# Smart-Parking-Berbasis-YOLOv8s-dan-Line-Crossing-untuk-Monitoring-Parkir-Real-Time
+# Smart Parking Berbasis YOLOv8s dan Line Crossing untuk Monitoring Parkir Real Time
 Proyek ini merupakan sistem pemantauan dan penghitungan kendaraan (motor) parkir otomatis berbasis YOLOv8 dan metode _Line Crossing_ yang dilengkapi dengan fitur deteksi cahaya rendah.
 
 ### Tujuan Proyek 
