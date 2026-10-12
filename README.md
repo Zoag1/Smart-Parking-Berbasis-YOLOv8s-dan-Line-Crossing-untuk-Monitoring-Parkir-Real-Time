@@ -13,16 +13,31 @@ Proyek ini merupakan sistem pemantauan dan penghitungan kendaraan (motor) parkir
 
 ### Cara Menjalankan Proyek
   1. Masuk ke Direktori Proyek
-     Buka terminal Anda (Anaconda Prompt atau Command Prompt) dan arahkan ke folder tempat penyimpanan proyek ini: `cd/path/ke/folder-proyek-anda`. <br>
+     Buka terminal Anda (Anaconda Prompt atau Command Prompt) dan arahkan ke folder tempat penyimpanan proyek ini: <br>
+     
+     ```
+     cd/path/ke/folder-proyek-anda
+     ```
      (Contoh di Windows: `cd D:\PROJECT\YOLOV8_Project`)
 
 ### Instal Dependencies
-  1. Instal seluruh pustaka Python yang dibutuhkan dengan menjalankan perintah: `pip install -r requirements.txt`
-  2. Atau instal secara manual: `pip install ultralytics opencv-python numpy pandas`
+  1. Instal seluruh pustaka Python yang dibutuhkan dengan menjalankan perintah:
+  
+     ```
+     pip install -r requirements.txt
+     ```
+  3. Atau instal secara manual:
+     
+     ```
+     pip install ultralytics opencv-python numpy pandas
+     ```
 
 ### Menjalankan Skrip Python
-1. Jalankan program melalui terminal dengan format perintah universal berikut: <br>
-   `python YOLOV8.py --input <nama_folder>/<nama_video_sumber>.mp4 --output <nama_folder_hasil>/<nama_video_output>.avi`
+1. Jalankan program melalui terminal dengan format perintah universal berikut:
+   
+   ```
+   python YOLOV8.py --input <nama_folder>/<nama_video_sumber>.mp4 --output <nama_folder_hasil>/<nama_video_output>.avi
+   ```
 
 ### Keterangan Argumen
 1. `input`: Diisi dengan direktori dan nama file video asli yang ingin Anda analisis. <br>
@@ -31,7 +46,9 @@ Proyek ini merupakan sistem pemantauan dan penghitungan kendaraan (motor) parkir
    (contoh: `output/1_test_result.avi`).
 
 ### Contoh Perintah Nyata
-`python YOLOV8.py --input videos/1.mp4 --output output/1_test_result.avi`
+```
+Python YOLOV8.py --input videos/1.mp4 --output output/1_test_result.avi
+```
 
 ### Kontak
 Untuk pertanyaan atau diskusi lebih lanjut, Anda dapat menghubungi saya melalui: <br>
